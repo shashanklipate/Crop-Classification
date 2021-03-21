@@ -5,6 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 # mode = 'C:\\Projects\\Bhadke Image Classification CNN\\computer_vision\\basedata\\model_v1'
 mode_1 = 'C:\\Projects\\Bhadke Image Classification CNN\\phase 2\\models\\model_v3'
+mode_1 = 'model_v3'
 # Recreate the exact same model, including its weights and the optimizer
 new_model = tf.keras.models.load_model(mode_1)
 # Show the model architecture
